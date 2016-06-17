@@ -29,5 +29,5 @@
 	}
 
 	var app = angular.module('myapp'), requires = [ pascalCase ];
-	app.filter('cartosTitleCase', requires);
+	app.filter('titleCase', requires);
 }());
