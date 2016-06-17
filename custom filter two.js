@@ -28,6 +28,6 @@
 		};
 	}
 
-	var app = angular.module('ngCartosCore'), requires = [ pascalCase ];
+	var app = angular.module('myapp'), requires = [ pascalCase ];
 	app.filter('cartosTitleCase', requires);
 }());
